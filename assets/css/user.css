@@ -1,0 +1,745 @@
+.navbar{
+  margin-bottom:0;
+  border-bottom-color:#24cfe5;
+  border-bottom-style:solid;
+  border-bottom-width:4px;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.hero{
+  background-size:cover;
+  border:none;
+}
+
+@media (min-width:992px) {
+  .hero .get-it{
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.hero .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  height:250px;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+img{
+  margin-top:0;
+}
+
+a.navbar-brand.navbar-link{
+  padding:5px;
+}
+
+section#home{
+}
+
+div.jumbotron.hero{
+  height:100vh;
+}
+
+footer{
+  background-color:#444444;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing:border-box;
+  width:100%;
+  text-align:left;
+  font:bold 16px sans-serif;
+  padding:25px 50px;
+  margin-top:50px;
+  bottom:0;
+  color:#444444;
+  border-top-style:solid;
+  border-top-color:#24cfe5;
+  border-top-width:10px;
+}
+
+.footer-navigation h3{
+  margin:0;
+  font:normal 36px Cookie, cursive;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+.footer-navigation h3 a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer-navigation h3 span{
+  color:#5383d3;
+}
+
+.footer-navigation p.links a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-navigation p.company-name{
+  color:#8f9296;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts{
+    margin:30px 0;
+  }
+}
+
+.footer-contacts p{
+  display:inline-block;
+  color:#ffffff;
+  vertical-align:middle;
+}
+
+.footer-contacts p a{
+  color:#5383d3;
+  text-decoration:none;
+}
+
+.fa.footer-contacts-icon{
+  background-color:#33383b;
+  color:#fff;
+  font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  text-align:center;
+  line-height:38px;
+  margin:10px 15px 10px 0;
+}
+
+span.new-line-span{
+  display:block;
+  font-weight:normal;
+  display:block;
+  font-weight:normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-about h4{
+  display:block;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.footer-about p{
+  line-height:20px;
+  color:#92999f;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+}
+
+div.social-links{
+  margin-top:20px;
+  color:#fff;
+}
+
+.social-links a{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+  background-color:#33383b;
+  border-radius:2px;
+  font-size:20px;
+  color:#ffffff;
+  text-align:center;
+  line-height:35px;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+
+h2{
+  color:white;
+}
+
+h2.text-center.black{
+  color:black;
+}
+
+img.brand-logo{
+  width:68%;
+}
+
+img#small-logo.center-block{
+  width:50%;
+  margin-right:10px;
+}
+
+img#small-logo.center-block{
+  float:left;
+}
+
+img.stars.center-block{
+}
+
+p.links{
+}
+
+footer.site-footer{
+}
+
+p.lead.text-center{
+  color:white;
+  border-bottom-color:#24cfe5;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+}
+
+p.lead.text-center{
+  padding:8px;
+}
+
+p.lead.text-center{
+  width:80%;
+}
+
+nav.navbar.navbar-default{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:55px;
+}
+
+a{
+  height:50.5px;
+}
+
+img.brand-logo{
+}
+
+img#logo.center-block{
+  margin-top:20px;
+  width:100%;
+  max-width:500px;
+  margin-top:25px;
+}
+
+div.jumbotron.hero.home{
+  background:url(../../assets/img/fithouseIMG1.jpg) no-repeat center;
+  background-position:center;
+  background-size:cover;
+}
+
+div.jumbotron.hero.training{
+  background:url(../../assets/img/fithouseIMG.jpg) no-repeat center;
+  background-position:center;
+  background-size:100%;
+}
+
+h3#home-p.text-center.center-block{
+  font-size:1.1em;
+  color:white;
+  width:200px;
+  line-height:150%;
+  padding:8px;
+  border-bottom-color:white;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-top-color:white;
+  border-top-style:solid;
+  border-top-width:2px;
+}
+
+h3.text-center{
+  color:white;
+}
+
+h3.text-center{
+  border-bottom-color:#fff;
+}
+
+img.center-block.avatar{
+  border-radius:50%;
+  border-color:white;
+  border-width:4px;
+  border-style:solid;
+}
+
+p.text-center.title{
+  color:white;
+  font-size:.85em;
+}
+
+hr{
+  color:#24cfe5;
+  border-color:#24cfe5;
+}
+
+hr.footer-hr{
+  border-color:#444444;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+  background-color:#444444;
+}
+
+p{
+  color:white;
+}
+
+@media (min-width:1200px) {
+  section#about{
+    height:1300px;
+  }
+}
+
+@media (max-width:1199px) {
+  section#about{
+    height:1300px;
+  }
+}
+
+@media (max-width:991px) {
+  section#about{
+    height:2250px;
+  }
+}
+
+@media (max-width:767px) {
+  section#about{
+    height:2650px;
+  }
+}
+
+hr.profiles{
+  width:50%;
+}
+
+p.lead.text-center.center-block{
+  margin-bottom:50px;
+}
+
+h2.text-uppercase.text-center{
+  margin-bottom:20px;
+}
+
+p.general-text{
+  font-size:1.1em;
+  text-align:left !important;
+}
+
+p.block{
+  background:rgba(0,0,0,0.7);
+}
+
+p.general-text.block{
+  padding:9px;
+}
+
+div.jumbotron.hero.results{
+  background:url(../../assets/img/fithouseIMG4.jpg) no-repeat center;
+  background-size:cover;
+}
+
+div.jumbotron.hero.results{
+  height:800px;
+}
+
+@media (min-width:1200px) {
+  section#results{
+    height:1550px;
+    background-color:black;
+  }
+}
+
+@media (max-width:1199px) {
+  section#results{
+    height:1500px;
+    background-color:black;
+  }
+}
+
+@media (max-width:991px) {
+  section#results{
+    height:2800px;
+    background-color:black;
+  }
+}
+
+@media (max-width:767px) {
+  section#results{
+    height:3000px;
+    background-color:black;
+  }
+}
+
+p.lead.block.quote{
+  color:white;
+  border-left-color:#24cfe5;
+  border-left-style:solid;
+  padding:10px;
+}
+
+p.lead.block.quote{
+  line-height:1.6em;
+}
+
+p.general-text.block{
+  text-align:center;
+}
+
+img.stars.center-block{
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+section#about{
+  background-color:black;
+}
+
+button.btn.btn-default{
+}
+
+p.lead.block.quote{
+}
+
+p.lead.block.quote{
+}
+
+div.embed-responsive.embed-responsive-16by9{
+  margin:0;
+}
+
+p.lead.text-center.center-block{
+  max-width:580px;
+}
+
+div.col-xs-12.col-md-4.col-lg-4{
+  margin-bottom:50px;
+}
+
+p.general-text.block{
+}
+
+div.col-lg-6.col-md-6.col-xs-12{
+  margin-top:20px;
+}
+
+img.center-block.avatar.icons{
+  width:150px;
+}
+
+img.center-block.avatar.icons{
+  padding:20px;
+}
+
+h3.text-center.box-header{
+  color:black;
+  background-color:white;
+  padding:10px;
+  font-weight:500;
+}
+
+@media (max-width:767px) {
+  section#schedule{
+    height:3100px;
+    background-color:black;
+  }
+}
+
+@media (max-width:991px) {
+  section#schedule{
+    height:2100px;
+    background-color:black;
+  }
+}
+
+@media (max-width:1199px) {
+  section#schedule{
+    height:2100px;
+    background-color:black;
+  }
+}
+
+@media (min-width:1200px) {
+  section#schedule{
+    height:2100px;
+    background-color:black;
+  }
+}
+
+span.well-span.center-block{
+  text-align:center;
+  margin:10px;
+  margin-bottom:20px;
+}
+
+body{
+  background-color:black;
+}
+
+section.testimonials{
+  background-color:#444444;
+}
+
+div.jumbotron.hero.home{
+  margin:0;
+}
+
+h2.text-center.black{
+}
+
+h2.text-center.black{
+}
+
+div{
+}
+
+h2.text-center.black{
+  padding-top:75px;
+}
+
+h2.text-center{
+  margin:0;
+}
+
+@media (min-width:1200px) {
+  h2.text-center.callout{
+    padding-top:2.5em;
+    font-size:2.7em;
+  }
+}
+
+@media (max-width:991px) {
+  h2.text-center.callout{
+    padding-top:2.5em;
+    font-size:2.7em;
+  }
+}
+
+@media (max-width:1199px) {
+  h2.text-center.callout{
+    padding-top:2.4em;
+    font-size:2.7em;
+  }
+}
+
+@media (max-width:767px) {
+  h2.text-center.callout{
+    padding-top:2.7em;
+    font-size:2em;
+  }
+}
+
+div.between{
+  height:200px;
+}
+
+span.well-span.center-block{
+  font-size:1.7em;
+}
+
+@media (max-width:991px) {
+  div.jumbotron.hero.schedule{
+    background:url(../../assets/img/fithouseIMG4.jpg) no-repeat center;
+    height:100vh;
+  }
+}
+
+@media (max-width:1199px) {
+  div.jumbotron.hero.schedule{
+    background:url(../../assets/img/fithouseIMG4.jpg) no-repeat center;
+    height:100vh;
+  }
+}
+
+@media (min-width:1200px) {
+  div.jumbotron.hero.schedule{
+    background:url(../../assets/img/fithouseIMG4.jpg) no-repeat center;
+    height:100vh;
+  }
+}
+
+div.jumbotron.hero.about{
+  background-position:center;
+  background-size:100%;
+  background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
+}
+
+p.general-text.block{
+  text-align:justify;
+}
+
+@media (min-width:1200px) {
+  section#training{
+    height:1300px;
+  }
+}
+
+@media (max-width:1199px) {
+  section#training{
+    height:1300px;
+  }
+}
+
+@media (max-width:991px) {
+  section#training{
+    height:2200px;
+  }
+}
+
+@media (max-width:767px) {
+  section#training{
+    height:2600px;
+  }
+}
+
+span.well-span.center-block.blue{
+}
+
+div#mindbody.embed-responsive.embed-responsive-16by9{
+  height:1000px;
+}
+
+div.embed-responsive.embed-responsive-16by9{
+}
+
+div.col-xs-12.col-sm-6.col-md-3.col-lg-3.box{
+}
+
+h3.text-center.box-header.center-block{
+  max-width:220px;
+}
+
