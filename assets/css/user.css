@@ -311,6 +311,7 @@ img#small-logo.center-block{
 }
 
 img.stars.center-block{
+  width:85px;
 }
 
 p.links{
@@ -453,6 +454,8 @@ p.lead.text-center.center-block{
 
 h2.text-uppercase.text-center{
   margin-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:500;
 }
 
 p.general-text{
@@ -479,7 +482,7 @@ div.jumbotron.hero.results{
 
 @media (min-width:1200px) {
   section#results{
-    height:1550px;
+    height:1600px;
     background-color:black;
   }
 }
@@ -533,6 +536,7 @@ button.btn.btn-default{
 }
 
 p.lead.block.quote{
+  font-style:italic;
 }
 
 p.lead.block.quote{
@@ -572,31 +576,11 @@ h3.text-center.box-header{
   font-weight:500;
 }
 
-@media (max-width:767px) {
-  section#schedule{
-    height:3100px;
-    background-color:black;
-  }
-}
-
-@media (max-width:991px) {
-  section#schedule{
-    height:2100px;
-    background-color:black;
-  }
-}
-
-@media (max-width:1199px) {
-  section#schedule{
-    height:2100px;
-    background-color:black;
-  }
-}
-
 @media (min-width:1200px) {
   section#schedule{
-    height:2100px;
     background-color:black;
+    background:url(../../assets/img/fithouse.050511.rhr01.jpg) no-repeat center;
+    background-size:cover;
   }
 }
 
@@ -624,9 +608,6 @@ h2.text-center.black{
 h2.text-center.black{
 }
 
-div{
-}
-
 h2.text-center.black{
   padding-top:75px;
 }
@@ -637,29 +618,31 @@ h2.text-center{
 
 @media (min-width:1200px) {
   h2.text-center.callout{
-    padding-top:2.5em;
+    padding-top:3em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:991px) {
   h2.text-center.callout{
-    padding-top:2.5em;
+    padding-top:4em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:1199px) {
   h2.text-center.callout{
-    padding-top:2.4em;
+    padding-top:3em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:767px) {
   h2.text-center.callout{
-    padding-top:2.7em;
+    padding-top:1.8em;
     font-size:2em;
+    line-height:1.3;
+    margin:7px;
   }
 }
 
@@ -696,6 +679,7 @@ div.jumbotron.hero.about{
   background-position:center;
   background-size:100%;
   background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
+  margin-top:0px;
 }
 
 p.general-text.block{
@@ -733,13 +717,197 @@ div#mindbody.embed-responsive.embed-responsive-16by9{
   height:1000px;
 }
 
-div.embed-responsive.embed-responsive-16by9{
-}
-
 div.col-xs-12.col-sm-6.col-md-3.col-lg-3.box{
 }
 
 h3.text-center.box-header.center-block{
   max-width:220px;
+}
+
+@media (max-width:991px) {
+  div.jumbotron.hero.filler{
+    height:400px;
+  }
+}
+
+@media (max-width:767px) {
+  div.jumbotron.hero.filler{
+    height:400px;
+  }
+}
+
+div.jumbotron.hero.filler{
+  background-color:black;
+}
+
+a.center-block.text-center{
+  font-size:2em;
+}
+
+a.center-block.text-center.mindbody{
+  background-color:white;
+  padding-top:10px;
+  width:300px;
+  color:black;
+  border-style:solid;
+  border-width:2px;
+}
+
+a.center-block.text-center.mindbody{
+  font-size:1.5em;
+}
+
+@media (max-width:767px) {
+  div#MINDBODY.well{
+    display:none;
+  }
+}
+
+nav navbar-nav navbar-right" > <li role="presentation" class="active" > <a > About </a > </li > <li role="presentation" > <a > Coaches </a > </li > <li role="presentation" > <a > Training </a > </li > <li role="presentation" > <a > Results </a > </li > <li role="presentation" > <a > Connect </a > </li > <li role="presentation" > <a > Schedule </a > </li > </ul >{
+}
+
+.nav.navbar-nav.navbar-right{
+}
+
+.nav.navbar-nav.navbar-right{
+}
+
+div#video.embed-responsive.embed-responsive-16by9{
+  width:100%;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+h2.text-center.callout{
+  font-style:italic;
+  font-size:2.3em;
+}
+
+img.stars.center-block{
+}
+
+p.general-text.block{
+  font-size:1em;
+}
+
+section#about{
+  background:url(../../assets/img/fithouseIMG5.jpg);
+}
+
+section#about{
+  background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
+  background-position:center top;
+}
+
+section#training{
+  background-image:url(../../assets/img/fithouseIMG.jpg);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:cover;
+}
+
+section#results{
+  background-image:url(../../assets/img/fithouseIMG2.jpg);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:cover;
+}
+
+section#schedule{
+  background-image:url(../../assets/img/fithouse.050511.rhr01.jpg);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:cover;
+}
+
+.card{
+  box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top:10px;
+  box-sizing:border-box;
+  border-radius:2px;
+  background-clip:padding-box;
+  max-width:800px;
+}
+
+.card .card-image span.card-title{
+  color:#fff;
+  font-size:24px;
+  font-weight:300;
+  text-transform:uppercase;
+}
+
+.card .card-image{
+  position:relative;
+  overflow:hidden;
+}
+
+.card .card-image img{
+  border-radius:2px 2px 0 0;
+  background-clip:padding-box;
+  position:relative;
+  z-index:-1;
+}
+
+.card .card-image span.card-title{
+  position:absolute;
+  bottom:0;
+  left:0;
+  padding:16px;
+}
+
+.card .card-content{
+  padding:16px;
+  border-radius:0 0 2px 2px;
+  background-clip:padding-box;
+  box-sizing:border-box;
+  color:#333;
+}
+
+.card .card-content p{
+  margin:0;
+}
+
+.card .card-action{
+  border-top:1px solid rgba(160, 160, 160, 0.2);
+  padding:16px;
+  background:#fff;
+}
+
+.card .card-action a{
+  color:#ffab40;
+  margin-right:16px;
+  transition:color 0.3s ease;
+  text-transform:uppercase;
+}
+
+.card .card-action a:hover{
+  color:#ffd8a6;
+  text-decoration:none;
+}
+
+div.embed-responsive.embed-responsive-16by9.MINDANDBODY{
+}
+
+section#schedule{
 }
 
