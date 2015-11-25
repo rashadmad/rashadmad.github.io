@@ -1,3 +1,26 @@
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
+  color:black !important;
+  background-color:white;
+  border-color:white !important;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+  outline:thin dotted;
+  outline:5px auto white !important;
+  outline-offset:-2px;
+}
+
+.btn:hover, .btn:focus, .btn.focus{
+  color:black !important;
+  text-decoration:none;
+}
+
+.btn-default:hover{
+  color:black !important;
+  border-color:white !important;
+  background-color:white !important;
+}
+
 .navbar{
   margin-bottom:0;
   border-bottom-color:#24cfe5;
@@ -179,7 +202,6 @@ footer{
   text-align:left;
   font:bold 16px sans-serif;
   padding:25px 50px;
-  margin-top:50px;
   bottom:0;
   color:#444444;
   border-top-style:solid;
@@ -311,7 +333,6 @@ img#small-logo.center-block{
 }
 
 img.stars.center-block{
-  width:85px;
 }
 
 p.links{
@@ -444,8 +465,22 @@ p{
   }
 }
 
-hr.profiles{
-  width:50%;
+@media (max-width:767px) {
+  hr.profiles{
+    width:20%;
+  }
+}
+
+@media (max-width:991px) {
+  hr.profiles{
+    width:27%;
+  }
+}
+
+@media (min-width:1200px) {
+  hr.profiles{
+    width:50%;
+  }
 }
 
 p.lead.text-center.center-block{
@@ -454,7 +489,6 @@ p.lead.text-center.center-block{
 
 h2.text-uppercase.text-center{
   margin-bottom:20px;
-  font-family:'Open Sans', sans-serif;
   font-weight:500;
 }
 
@@ -472,7 +506,7 @@ p.general-text.block{
 }
 
 div.jumbotron.hero.results{
-  background:url(../../assets/img/fithouseIMG4.jpg) no-repeat center;
+  background:url(../../assets/img/fithouseIMG2.jpg) no-repeat center;
   background-size:cover;
 }
 
@@ -482,7 +516,7 @@ div.jumbotron.hero.results{
 
 @media (min-width:1200px) {
   section#results{
-    height:1600px;
+    height:1800px;
     background-color:black;
   }
 }
@@ -530,13 +564,18 @@ img.stars.center-block{
 
 section#about{
   background-color:black;
+  background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
+  background-size:100% auto;
+  background-position:center top;
 }
 
 button.btn.btn-default{
+  color:white;
+  border-color:white;
+  background-color:rgba(0,0,0,0);
 }
 
 p.lead.block.quote{
-  font-style:italic;
 }
 
 p.lead.block.quote{
@@ -576,12 +615,13 @@ h3.text-center.box-header{
   font-weight:500;
 }
 
-@media (min-width:1200px) {
-  section#schedule{
-    background-color:black;
-    background:url(../../assets/img/fithouse.050511.rhr01.jpg) no-repeat center;
-    background-size:cover;
-  }
+section#schedule{
+  height:auto;
+  background-color:black;
+  background-image:url("../../assets/img/fithouse.050511.rhr01.jpg");
+  background:url(../../assets/img/fithouse.050511.rhr01.jpg) no-repeat center;
+  background-size:cover;
+  background-position:center top;
 }
 
 span.well-span.center-block{
@@ -618,31 +658,30 @@ h2.text-center{
 
 @media (min-width:1200px) {
   h2.text-center.callout{
-    padding-top:3em;
+    padding-top:2.5em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:991px) {
   h2.text-center.callout{
-    padding-top:4em;
+    padding-top:2.5em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:1199px) {
   h2.text-center.callout{
-    padding-top:3em;
+    padding-top:2.4em;
     font-size:2.7em;
   }
 }
 
 @media (max-width:767px) {
   h2.text-center.callout{
-    padding-top:1.8em;
+    padding-top:2.7em;
     font-size:2em;
     line-height:1.3;
-    margin:7px;
   }
 }
 
@@ -679,7 +718,6 @@ div.jumbotron.hero.about{
   background-position:center;
   background-size:100%;
   background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
-  margin-top:0px;
 }
 
 p.general-text.block{
@@ -749,7 +787,6 @@ a.center-block.text-center.mindbody{
   padding-top:10px;
   width:300px;
   color:black;
-  border-style:solid;
   border-width:2px;
 }
 
@@ -798,46 +835,20 @@ section.features{
   margin-top:15px;
 }
 
-h2.text-center.callout{
-  font-style:italic;
-  font-size:2.3em;
+p.email{
+  font-size:.9em;
 }
 
-img.stars.center-block{
+div.footer-element{
+  margin:0 !important;
 }
 
-p.general-text.block{
-  font-size:1em;
+span.well-span.center-block{
+  font-weight:100;
 }
 
-section#about{
-  background:url(../../assets/img/fithouseIMG5.jpg);
-}
-
-section#about{
-  background:url(../../assets/img/fithouseIMG5.jpg) no-repeat center;
-  background-position:center top;
-}
-
-section#training{
-  background-image:url(../../assets/img/fithouseIMG.jpg);
-  background-repeat:no-repeat;
-  background-position:center top;
-  background-size:cover;
-}
-
-section#results{
-  background-image:url(../../assets/img/fithouseIMG2.jpg);
-  background-repeat:no-repeat;
-  background-position:center top;
-  background-size:cover;
-}
-
-section#schedule{
-  background-image:url(../../assets/img/fithouse.050511.rhr01.jpg);
-  background-repeat:no-repeat;
-  background-position:center top;
-  background-size:cover;
+div#MINDBODY.embed-responsive.embed-responsive-16by9{
+  max-width:800px;
 }
 
 .card{
@@ -880,6 +891,7 @@ section#schedule{
   border-radius:0 0 2px 2px;
   background-clip:padding-box;
   box-sizing:border-box;
+  background:#fff;
   color:#333;
 }
 
@@ -905,9 +917,41 @@ section#schedule{
   text-decoration:none;
 }
 
-div.embed-responsive.embed-responsive-16by9.MINDANDBODY{
+div.card-content{
+  background-color:black;
+}
+
+div.card-content{
+  background-color:rgba(0,0,0,0) !important;
+}
+
+iframe.embed-responsive-item.center-block.center-block.center-block.center-block.center-block.center-block{
+}
+
+a.center-block.text-center.mindbody{
+  margin-bottom:10px;
+}
+
+div.card-content.text-center{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+div.card.center-block{
+  margin-top:10px;
 }
 
 section#schedule{
+  background-image:url("../../assets/img/fithouse.050511.rhr01.jpg");
+  background-position:100% top;
+}
+
+div.embed-responsive.embed-responsive-16by9.hidden-xs{
+}
+
+section#connect{
+  background:url("../../assets/img/fithouse.050511.rhr01.jpg");
+  background-size:100% auto;
+  background-position:center top;
 }
 
