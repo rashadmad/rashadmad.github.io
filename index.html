@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="assets/css/user.css">
     <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/personal_info.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/js/smoothScroll.js" charset="utf-8"></script>
 </head>
 <body>
@@ -54,16 +55,26 @@
                 one. With these beliefs in mind, we’ve created a private environment where we focus on building strength, endurance, flexibility, mobility, and stability. Each member is given the tools to make sustainable and impactful change, in a setting
                 that fosters trust and organic growth. </p>
         </div>
-        ///modal
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
+        <div class="modal fade myModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog"> this is the dialog
+            <div class="modal-content"><img src="assets/img/Christine_avatar.jpg" alt="bigger avatar image" style="width:100%;max-height:1
+              00px">
+              <div class="modal-header"> Christine Madonis
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Modal title</h4>
+                <h4 class="modal-title"></h4>
               </div>
               <div class="modal-body">
-                <p class="personnel-info">One fine body&hellip;</p>
+                <p class="personnel-info">Growing up in a Portage, Michigan, Christine always found soccer to be a great
+way to make friends and stay fit. Her competitive spirit earned her a full
+scholarship to Robert Morris University in Chicago where she was voted team
+captain in 2009, 2010 and 2011. With Christine at the helm, RMU earned a spot
+in the NAIA national tournament, competing against the elite 8 teams in the
+nation in 2011. When Christine wasn’t practicing on the field, she was putting her
+energy into the Fulton Fit House. Honing in on her true passion, Christine earned
+her bachelors degree in Applied Health Science with a concentration in Personal
+Training. She is CPR/AED certified and ACE certified. Health and fitness is truly
+embedded into Christine's lifestyle, and her "spunk" and positive attitude are
+contagious.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -80,19 +91,19 @@
                 <h3 class="text-center">Christine Madionis </h3>
                 <hr class="profiles">
                 <p class="text-center title">Co-Founder/Coach </p>
-                <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target="#myModal">learn more</button>
+                <button id="christine_butt" class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more</button>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/Mike_avatar.jpg" class="center-block avatar">
                 <h3 class="text-center">Mike Madionis </h3>
                 <hr class="profiles">
                 <p class="text-center title">Co-Founder/Coach </p>
-                <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target="#myModal">learn more </button>
+                <button id="mike_butt" class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/Joel_avatar.jpg" class="center-block avatar">
                 <h3 class="text-center">Christine Madionis </h3>
                 <hr class="profiles">
                 <p class="text-center title">Co-Founder/Coach </p>
-                <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target="#myModal">learn more</button>
+                <button id="joseph_butt" class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more</button>
             </div>
         </div>
     </section>
@@ -109,26 +120,26 @@
                 <h3 class="text-center">ASSESS </h3>
                 <hr class="profiles">
                 <p class="text-center title">Assesment &amp; regularfit-test </p>
-                <button class="btn btn-default center-block" type="button">learn more </button>
+                <button class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/runer.svg" class="center-block avatar icons">
                 <h3 class="text-center">ENGAGE </h3>
                 <hr class="profiles">
                 <p class="text-center title">Cardio, Strength-training &amp; Diet </p>
-                <button class="btn btn-default center-block" type="button">learn more </button>
+                <button class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/star157.svg" class="center-block avatar icons">
                 <h3 class="text-center">PERFORM </h3>
                 <hr class="profiles">
                 <p class="text-center title">Marathons &amp; Obstacle courses </p>
-                <button class="btn btn-default center-block" type="button">learn more </button>
+                <button class="btn btn-default center-block modal_button" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
             </div>
             <section>
                 <div><img src="assets/img/GreyStars.svg" class="stars center-block">
                     <h2 class="text-uppercase text-center">services </h2>
                     <p class="lead text-center center-block">Our approach consists of three key areas </p>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 box">
-                        <h3 class="text-center box-header center-block">Group Training</h3>
+                        <h3 class="text-center box-header center-block modal_button">Group Training</h3>
                         <div class="box">
                             <hr class="profiles">
                             <p class="text-center title">8:1 (max) client to coach ratio</p>
@@ -136,19 +147,19 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h3 class="text-center box-header center-block">Semi-Private </h3>
+                        <h3 class="text-center box-header center-block modal_button">Semi-Private </h3>
                         <hr class="profiles">
                         <p class="text-center title">4:1 (max) client to coach ratio</p>
                         <p class="text-center title">workout unlimited</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h3 class="text-center box-header center-block">Private-Training </h3>
+                        <h3 class="text-center box-header center-block modal_button">Private-Training </h3>
                         <hr class="profiles">
                         <p class="text-center title">1:1 client to coach ratio</p>
                         <p class="text-center title">pay per class</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h3 class="text-center box-header center-block">Corporate </h3>
+                        <h3 class="text-center box-header center-block modal_button">Corporate </h3>
                         <hr class="profiles">
                         <p class="text-center title">Inquire via email:</p>
                         <p class="text-center title">mike@fultonfithouse.com </p>
@@ -185,19 +196,19 @@
                     <h3 class="text-center">Paul Kahan </h3>
                     <hr class="profiles">
                     <p class="text-center title">Executive Chef/Partner </p>
-                    <button class="btn btn-default center-block" type="button">learn more </button>
+                    <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
                 </div>
                 <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/Christine_avatar.jpg" class="center-block avatar">
                     <h3 class="text-center">Rick Pettit </h3>
                     <hr class="profiles">
                     <p class="text-center title">Corporate Client- Vail Systems </p>
-                    <button class="btn btn-default center-block" type="button">learn more </button>
+                    <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
                 </div>
                 <div class="col-xs-12 col-md-4 col-lg-4"><img src="assets/img/Christine_avatar.jpg" class="center-block avatar">
                     <h3 class="text-center">Marla Sedler </h3>
                     <hr class="profiles">
                     <p class="text-center title">Super Mom </p>
-                    <button class="btn btn-default center-block" type="button">learn more </button>
+                    <button class="btn btn-default center-block" type="button" data-toggle="modal" data-target=".myModal">learn more </button>
                 </div>
             </div>
         </div>

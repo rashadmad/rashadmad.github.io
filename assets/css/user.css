@@ -1,3 +1,10 @@
+.modal-content {
+background-color: #444444;
+
+}
+.modal-header {
+  color: white;
+}
 .btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
   color:black !important;
   background-color:white;
@@ -954,4 +961,3 @@ section#connect{
   background-size:100% auto;
   background-position:center top;
 }
-
