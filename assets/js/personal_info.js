@@ -1,6 +1,6 @@
-
-
-var personal = [
+var personal_pic = document.getElementsByClassName("modal-content");
+var personal_title = document.getElementsByClassName("modal-header");
+var personal_info = document.getElementsByClassName("personnel-info");
 
   // christine identity
   christine = {
@@ -46,7 +46,7 @@ for (prop in personal) {
 
 
 }
-document.getElementById('btn').onclick = function() {
+document.getElementsByClassName('btn').onclick = function() {
   alert('click!')
 }
 
