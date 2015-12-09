@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/js/personal_info.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/js/smoothScroll.js" charset="utf-8"></script>
 </head>
 <body>
@@ -65,22 +64,12 @@
           <div class="modal-dialog"> this is the dialog
             <div class="modal-content"><img src="assets/img/Christine_avatar.jpg" alt="bigger avatar image" style="width:100%;max-height:1
               00px">
-              <div class="modal-header"> Christine Madonis
+              <div id="modal_header" class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title"></h4>
               </div>
               <div class="modal-body">
-                <p class="personnel-info">Growing up in a Portage, Michigan, Christine always found soccer to be a great
-way to make friends and stay fit. Her competitive spirit earned her a full
-scholarship to Robert Morris University in Chicago where she was voted team
-captain in 2009, 2010 and 2011. With Christine at the helm, RMU earned a spot
-in the NAIA national tournament, competing against the elite 8 teams in the
-nation in 2011. When Christine wasn’t practicing on the field, she was putting her
-energy into the Fulton Fit House. Honing in on her true passion, Christine earned
-her bachelors degree in Applied Health Science with a concentration in Personal
-Training. She is CPR/AED certified and ACE certified. Health and fitness is truly
-embedded into Christine's lifestyle, and her "spunk" and positive attitude are
-contagious.</p>
+                <p id="personnel_info" class="personnel-info"></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -188,7 +177,7 @@ contagious.</p>
     </section>
     <section class="testimonials">
         <div class="between">
-            <h2 class="text-center callout">Tough coaches + supportive members= the Fulton Fithouse family. </h2></div>
+            <h2 class="text-center callout"> Tough coaches + supportive members = the Fulton Fithouse family. </h2></div>
     </section>
     <section id="results">
       <div class="row-fluid co center-block">
@@ -301,6 +290,7 @@ contagious.</p>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/personal_info.js" charset="utf-8"></script>
 </body>
 
 </html>
