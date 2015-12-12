@@ -1,3 +1,9 @@
+
+#modal_img{
+  width:100%;
+  height:500px;
+  margin-bottom:20px;
+}
 cite {
   color:white;
 }
@@ -754,25 +760,25 @@ section#training{
 
 @media (min-width:1200px) {
   section#training{
-    height:1300px;
+    height:1500px;
   }
 }
 
 @media (max-width:1199px) {
   section#training{
-    height:1300px;
+    height:1500px;
   }
 }
 
 @media (max-width:991px) {
   section#training{
-    height:2200px;
+    height:2300px;
   }
 }
 
 @media (max-width:767px) {
   section#training{
-    height:2600px;
+    height:2700px;
   }
 }
 

@@ -1,6 +1,10 @@
-var personal_pic = document.getElementById("modal_content");
-var personal_name = document.getElementById("modal_header");
+var personal_name = document.getElementById("modal_title");
 var personal_info = document.getElementById("personnel_info");
+var personal_pic = document.getElementById("modal_img");
+var personal_body = document.getElementById("modal_body");
+var empty = "";
+var modal_img = new Image();
+var counter = 0;
 
 var buttonClicked;
 
@@ -22,6 +26,21 @@ var personal_array = [
       info: "nothing yet",
       img_src: "assets/img/Joel_avatar.jpg"
     },
+    { class_Name:"assess_butt",
+      name: "Joseph Leli",
+      info: "Membership at Fulton Fit House begins with an initial assessment. We get to know you: your prior workout history, injuries and any sourness This allows us to create a customized workout plan that is specific to your individual goals and abilities.",
+      img_src: "assets/img/Joel_avatar.jpg"
+    },
+    { class_Name:"engage_butt",
+      name: "Joseph Leli",
+      info: "Either with a group or privately with our certified coaches, we implement functional fitness through traditional strength and endurance training coupled with analytics-driven testing.",
+      img_src: "assets/img/Joel_avatar.jpg"
+    },
+    { class_Name:"perform_butt",
+      name: "Joseph Leli",
+      info: "We strongly encourage all members to put their training to the test through marathons, competitive sports, obstacle courses— anything that seemed unattainable to you before. Once you conquer your fitness goals, who knows what else you can accomplish?",
+      img_src: "assets/img/Joel_avatar.jpg"
+    },
     { class_Name:"paul_butt",
       name: "Paul Kahan",
       info: "As a professional chef, diet and exercise is challenging. At 48 years old I needed to make a commitment to live a long, healthy life. Fulton Fit House is that commitment.",
@@ -41,21 +60,30 @@ var personal_array = [
 
   $("button").click(function() {
       buttonClicked = this.id;
-
+      counter += 1;
   for(p = 0; p < personal_array.length; p += 1){
     var personalObject = personal_array[p].class_Name;
     var personalInfo = personal_array[p].info;
     var personalname = personal_array[p].name;
-    var personalimage = personal_array[p].img;
-  
+    var personalimage = personal_array[p].img_src;
+
     if( buttonClicked === personalObject){
         personal_name.innerHTML += personalname;
         personal_info.innerHTML += personalInfo;
-        personal_pic.innerHTML += personalimage;
-
+        personal_pic.src = personalimage;
+        personal_body.appendChild(linebreak);
 
     }
   }
+});
+
+//reset on the press of the close button
+document.getElementById("reset").addEventListener("click", function(){
+
+  personal_name.innerHTML = empty;
+  personal_info.innerHTML = empty;
+
+
 });
 
 
