@@ -1,6 +1,3 @@
-.arrow{
-
-}
 
 .fa.fa-chevron-down.fa-5x{
   color:white;
@@ -560,7 +557,7 @@ div.jumbotron.hero.results{
 
 @media (min-width:1200px) {
   section#results{
-    height:1800px;
+    height:1500px;
     background-color:black;
   }
 }
@@ -581,7 +578,7 @@ div.jumbotron.hero.results{
 
 @media (max-width:767px) {
   section#results{
-    height:3000px;
+    height:2600px;
     background-color:black;
   }
 }
@@ -796,7 +793,7 @@ section#training{
 
 @media (max-width:767px) {
   section#training{
-    height:2700px;
+    height:3050px;
   }
 }
 
@@ -851,7 +848,14 @@ a.center-block.text-center.mindbody{
     display:none;
   }
 }
-
+@media (max-width:767px) {
+ul.nav.navbar-nav.navbar-right {
+  background-color: #24cfe5;
+  border-bottom-style: solid;
+  border-bottom-color: #444444;
+  border-bottom-width: 7px;
+}
+}
 nav navbar-nav navbar-right" > <li role="presentation" class="active" > <a > About </a > </li > <li role="presentation" > <a > Coaches </a > </li > <li role="presentation" > <a > Training </a > </li > <li role="presentation" > <a > Results </a > </li > <li role="presentation" > <a > Connect </a > </li > <li role="presentation" > <a > Schedule </a > </li > </ul >{
 }
 
