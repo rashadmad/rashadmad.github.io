@@ -1,3 +1,30 @@
+.shrink{
+
+}
+
+.color-white{
+    color:white;
+}
+
+.mid{
+  max-width: 400px;
+  margin:10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.general-text.center-block.col-12{
+  max-width: 400px;
+  margin:10px;
+  text-align: center;
+}
+
+.text-justify.general-text.center-block{
+  max-width: 400px;
+  text-align: center;
+
+
+}
 
 .fa.fa-chevron-down.fa-5x{
   color:white;
@@ -505,7 +532,7 @@ section#results {
 
 @media (max-width:767px) {
   section#about{
-    height:2650px;
+    height:2555px;
   }
 }
 
@@ -787,13 +814,13 @@ section#training{
 
 @media (max-width:991px) {
   section#training{
-    height:2300px;
+    height:2400px;
   }
 }
 
 @media (max-width:767px) {
   section#training{
-    height:3050px;
+    height:2750px;
   }
 }
 
