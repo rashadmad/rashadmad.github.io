@@ -78,13 +78,13 @@ var personal_array = [
 });
 
 //reset on the press of the close button
-document.getElementById("reset").addEventListener("click", function(){
+function resetText(){
 
   personal_name.innerHTML = empty;
   personal_info.innerHTML = empty;
-  
 
-});
+
+};
 
 
 
