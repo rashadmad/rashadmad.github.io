@@ -82,7 +82,7 @@ document.getElementById("reset").addEventListener("click", function(){
 
   personal_name.innerHTML = empty;
   personal_info.innerHTML = empty;
-
+  
 
 });
 
