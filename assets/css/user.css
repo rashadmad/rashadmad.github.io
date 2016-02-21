@@ -1,4 +1,43 @@
-.shrink{
+/* animats the hmburger button */
+@media (max-width:767px) {
+  .navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: .9px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+
+
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: .3px;
+	  transform: rotate(45deg);
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    top: 6px;
+	  transform: rotate(-45deg);
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+
+}
+
 
 }
 
@@ -877,9 +916,9 @@ a.center-block.text-center.mindbody{
 }
 @media (max-width:767px) {
 ul.nav.navbar-nav.navbar-right {
-  background-color: #24cfe5;
+  background-color: rgba(68, 68, 68, 0.8);
   border-bottom-style: solid;
-  border-bottom-color: #444444;
+  border-bottom-color: #24cfe5;
   border-bottom-width: 7px;
 }
 }
@@ -1035,6 +1074,7 @@ div.embed-responsive.embed-responsive-16by9.hidden-xs{
 
 section#connect{
   background:url("../../assets/img/fithouse.050511.rhr01.jpg");
-  background-size:100% auto;
+  background-size: auto;
   background-position:center top;
+  background-repeat:no-repeat;
 }

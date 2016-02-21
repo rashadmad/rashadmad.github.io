@@ -23,7 +23,7 @@ var personal_array = [
     },
     { class_Name:"joseph_butt",
       name: "Joseph Leli",
-      info: "nothing yet",
+      info: "More info coming soon",
       img_src: "assets/img/Joel_avatar.jpg"
     },
     { class_Name:"assess_butt",
