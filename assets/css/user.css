@@ -293,6 +293,8 @@ img{
   margin-top:0;
 }
 
+
+
 a.navbar-brand.navbar-link{
   padding:5px;
 }
@@ -650,7 +652,7 @@ div.jumbotron.hero.results{
 
 @media (max-width:767px) {
   section#results{
-    height:2600px;
+    height:2700px;
     background-color:black;
   }
 }
@@ -865,7 +867,7 @@ section#training{
 
 @media (max-width:767px) {
   section#training{
-    height:2750px;
+    height:3010px;
   }
 }
 
