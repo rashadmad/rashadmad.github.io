@@ -12,17 +12,17 @@ var buttonClicked;
 var personal_array = [
 
     { class_Name:"christine_butt",
-      name: "Christine Madonis",
-      info: 'Growing up in Portage, Michigan, Christine always found soccer to be a great way to make friends and stay fit. Her competitive spirit earned her a full scholarship to Robert Morris University in Chicago where she was voted team captain in 2009, 2010 and 2011. With Christine at the helm, RMU earned a spot in the NAIA national tournament, competing against the elite 8 teams in the nation in 2011. When Christine wasn’t practicing on the field, she was putting her energy into the Fulton Fit House. Honing in on her true passion, Christine earned her bachelors degree in Applied Health Science with a concentration in Personal Training. She is CPR/AED certified and ACE certified. Health and fitness is truly embedded into Christine' + "'s " + 'lifestyle, and her "spunk" and positive attitude are contagious.',
+      name: "Amelia Holder",
+      info: 'Growing up in Portage, Michigan, Amelia always found soccer to be a great way to make friends and stay fit. Her competitive spirit earned her a full scholarship to Robert Morris University in Chicago where she was voted team captain in 2009, 2010 and 2011. With Amelia at the helm, RMU earned a spot in the NAIA national tournament, competing against the elite 8 teams in the nation in 2011. When Amelia wasn’t practicing on the field, she was putting her energy into the Fulton Fit House. Honing in on her true passion, Amelia earned her bachelors degree in Applied Health Science with a concentration in Personal Training. She is CPR/AED certified and ACE certified. Health and fitness is truly embedded into Christine' + "'s " + 'lifestyle, and her "spunk" and positive attitude are contagious.',
       img_src: "assets/img/Christine_avatar.jpg"
     },
     { class_Name:"mike_butt",
-      name: "Mike Madonis",
-      info: "Since 2008, Mike has implemented successful fitness programs for hundreds of clients. After battling weight problems of his own following two knee surgeries, Mike committed himself to a regimen of functional fitness and lost 62 lbs. Through this dramatic change, he discovered a passion for helping others achieve their goals. He believes fitness is for everyone and that is has the ability to literally change - and save - lives. Today, Mike creates custom workout plans for both private and group classes and incorporates his own personal style into everything at Fulton Fit House.",
+      name: "Robert Boutin",
+      info: "Since 2008, Robert has implemented successful fitness programs for hundreds of clients. After battling weight problems of his own following two knee surgeries, Robert committed himself to a regimen of functional fitness and lost 62 lbs. Through this dramatic change, he discovered a passion for helping others achieve their goals. He believes fitness is for everyone and that is has the ability to literally change - and save - lives. Today, Robert creates custom workout plans for both private and group classes and incorporates his own personal style into everything at Fulton Fit House.",
       img_src: "assets/img/Mike_avatar.jpg"
     },
     { class_Name:"joseph_butt",
-      name: "Joseph Leli",
+      name: "Gary Perryman",
       info: "More info coming soon",
       img_src: "assets/img/Joel_avatar.jpg"
     },
@@ -42,19 +42,19 @@ var personal_array = [
       img_src: "assets/img/Joel_avatar.jpg"
     },
     { class_Name:"paul_butt",
-      name: "Paul Kahan",
+      name: "Raphael Demarest",
       info: "As a professional chef, diet and exercise is challenging. At 48 years old I needed to make a commitment to live a long, healthy life. Fulton Fit House is that commitment.",
-      img_src: "assets/img/Christine_avatar.jpg"
+      img_src: "assets/img/paul_avatar.jpg"
     },
     { class_Name:"rick_butt",
-      name: "Rick Pettit",
-      info: "Working out at Fulton Fit House under the instruction of Mike has changed my life. I have lost over 50 lbs. since I started. I not only look better and have more strength and endurance than when I started, I’ve learned how to eat right, which will allow me to keep the weight off.",
-      img_src: "assets/img/Christine_avatar.jpg"
+      name: "Jackie Short",
+      info: "Working out at Fulton Fit House under the instruction of Robert has changed my life. I have lost over 50 lbs. since I started. I not only look better and have more strength and endurance than when I started, I’ve learned how to eat right, which will allow me to keep the weight off.",
+      img_src: "assets/img/Jackie_avatar.jpg"
     },
     { class_Name:"marla_butt",
-      name: "Marla Sedler",
+      name: "Deborah Scott",
       info: "Fulton Fit House has changed my life. They are the real deal when it comes to fitness. Every day I am challenged to go outside of my comfort zone to get the BEST workout.",
-      img_src: "assets/img/Christine_avatar.jpg"
+      img_src: "assets/img/Deborah_avatar.jpg"
     }
 ];
 
